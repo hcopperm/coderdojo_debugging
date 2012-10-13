@@ -35,13 +35,14 @@ This is the HTML Inspector. It shows you the code that your browser is interpret
 
 Mouse over so you can see how different lines correspond to different things on the page.
 
-Now click on "Sources". You should see the "teaching.html" file there. 
-
 Event Listeners
 
-*Look through all the html elements. You should see <canvas id = "tutorial"> 
+*Look through all the html elements. You should see <div id = "hello"> 
 
-In our code, we get a handle on that and call it "tutorial". 
+Now click on "Sources". You should see the "teaching.html" file there. 
+
+
+In our code, we get a handle on that and call it "hello". 
 We then add what's called an event listener. What does it look like the event listener does?
   console.log("hello");
 
@@ -54,32 +55,26 @@ So we can use the console to run code immediately. Try some math problems (2 * 5
 number = 5
 number * 3
 
-What if we want to stop the code in the middle? We can put in what's called a "break point". Try clicking on the line number 16. Now what happens when you click the mouse?
+What if we want to stop the code in the middle? We can put in what's called a "break point". Try clicking on the line number 7. Now what happens when you click the mouse?
 
 The code stops. The cool thing about this is that you can use the console. Go ahead and try that out.  
 
-Let's say we want to manipulate the page in the middle of running our code. Making sure you have a breakpoint set at line 16, click the page and then type this: 
+Let's say we want to manipulate the page in the middle of running our code. Making sure you have a breakpoint set at line 7, click the page and then type this: 
 
-hello = document.getElementById("hello")
 hello.parentNode.removeChild(hello)
 
 ---
 
-We can also edit the code on our own machine and see what happens. Open a text editor window and call it "teaching.html". Then copy and paste the code from your browser. Save that file and then open it with Chrome. Now you can edit the file yourself. 
+We can also edit the code on our own machine and see what happens. Open a text editor window and call it "canvas.html". Then copy and paste this *canvas.html* code from your browser. Save that file and then open it with Chrome. Now you can edit the file yourself. 
 
-Change it so that it looks like this:
 
-//Get rid of <div id = "hello">
-//var ctx = document.getElementById("tutorial");
-//event listener() {
-//ctx.beginPath
-//moveTo...
-//ctx.stroke();
 
 Here we're manipulating something called the "canvas" element. You can think of it like a piece of paper. getContext() is getting a hold of it. beginPath() is like picking up your pencil. moveTo() tells you where to start your line, and lineTo tells you where to finish it. stroke() colors it in.  
 
 clickEvent.clientX
 Coordinates on a graph. In this case 0, 0 is the top left-hand corner. Down is positive
+
+What if you add this line in:
 
 
 
