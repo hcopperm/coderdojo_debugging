@@ -1,0 +1,38 @@
+<html>
+
+  <head>
+    <style>
+      canvas {
+        width: 500px;
+        height: 500px;
+      }
+
+    </style>
+  </head>
+  <body>
+  <canvas id="tutorial")>
+
+  </canvas>
+  </body>
+
+  <script src="canvas-experiments/loopy.js">
+  <script>
+    var tutorial = document.getElementById("tutorial");
+    var ctx = tutorial.getContext("2d");
+
+  
+
+
+    tutorial.addEventListener("click", function(clickEvent) {
+      var drawing = new DrawBasics();
+      drawing.makeArc(drawing.mouseCoords.x);
+    });
+    /*ctx.beginPath();
+    ctx.moveTo(75,50);
+    ctx.lineTo(100,75);
+    ctx.lineTo(100,25);
+    ctx.fill();
+    */
+
+  </script>
+</html>
