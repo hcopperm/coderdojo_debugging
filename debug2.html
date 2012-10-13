@@ -1,0 +1,17 @@
+<html>
+  <canvas id="tutorial" width = "1000" height = "1000">
+  </canvas>
+
+  <script>
+    var tutorial = document.getElementById("tutorial"); 
+    var canvas = tutorial.getContext("2d"); 
+    tutorial.addEventListener("click", function(clickEvent) {
+       
+      canvas.beginPath(); 
+      canvas.moveTo(clickEvent.clientX, clickEvent.clientY); 
+      canvas.lineTo(clickEvent.clientX, clickEvent.clientY + 10); 
+      canvas.stroke(); 
+    });
+
+  </script>
+</html>
