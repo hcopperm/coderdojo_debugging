@@ -65,7 +65,13 @@ hello.parentNode.removeChild(hello)
 
 ---
 
-We can also edit the code on our own machine and see what happens. Open a text editor window and call it "canvas.html". Then copy and paste this *canvas.html* code from your browser. Save that file and then open it with Chrome. Now you can edit the file yourself. 
+We can also edit the code on our own machine and see what happens. Open a text editor window and call it "debug2.html". 
+Point your browser here:
+
+http://hcopperm.github.com/coderdojo_debugging/debug2.html
+Then copy and paste this *debug2.html* code from your browser. Save that file and then open it with Chrome. Now you can edit the file yourself. 
+
+
 
 
 

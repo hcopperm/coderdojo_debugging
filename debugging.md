@@ -11,6 +11,6 @@ Install TextWrangler
 [http://ash.barebones.com/TextWrangler_4.0.1.dmg] (http://ash.barebones.com/TextWrangler_4.0.1.dmg)
 
 #### Open a Browser  
-Once you have it installed, open Chrome and point it to
-
+Once you have it installed, open Chrome and point it to  
+[http://hcopperm.github.com/coderdojo_debugging/debugging.html] (http://hcopperm.github.com/coderdojo_debugging/debugging.html)
 
